@@ -4,7 +4,7 @@ import strutils
 import mathexpr
 
 proc printf(formatstr: cstring) {.header: "<stdio.h>", varargs.}
-#proc round*(x: float): float {.importc: "round", header: "<math.h>".}
+proc round*(x: float): float {.importc: "round", header: "<math.h>".}
 
 let es = newEvaluator()
 # penentu genap dan ganjil
