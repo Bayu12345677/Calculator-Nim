@@ -1,0 +1,2 @@
+requires "nim"
+requires "mathexpr"
